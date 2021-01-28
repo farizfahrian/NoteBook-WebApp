@@ -5,12 +5,24 @@ html {
 
 body {
   color: #414141;
+  font-family: 'Raleway', sans-serif;
 }
 
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
+.start-header {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.start-text {
+  padding-top: 20px;
+  text-align: center;
+}
+
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -22,6 +34,20 @@ body {
 }
 .navbar-nav  li a:hover {
     color: #5edfff !important;
+}
+
+.btn-circle {
+  position: fixed;
+  right: 80px;
+  bottom: 80px;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+}
+
+.fa-pencil {
+  font-size: 30px;
+  padding-top: 11px;
 }
 
 .footer-padding {
